@@ -1,0 +1,12 @@
+[project]
+name = "azure-ai-engineer-associate-practicals"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "azure-identity>=1.24.0",
+    "langchain-openai>=0.3.30",
+    "openai>=1.99.9",
+    "python-dotenv>=1.1.1",
+]
