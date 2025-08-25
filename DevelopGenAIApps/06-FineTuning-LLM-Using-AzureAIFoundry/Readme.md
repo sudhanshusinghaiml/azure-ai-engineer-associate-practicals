@@ -8,4 +8,4 @@
 2. [Fine-tune models using serverless API](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/fine-tune-serverless?tabs=chat-completion&pivots=programming-language-python)
 
 
-3. [Fine Tune Azure OpenAI models](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/fine-tuning?context=%2Fazure%2Fai-foundry%2Fcontext%2Fcontext&tabs=azure-openai&pivots=programming-language-python)
+3. [Fine Tune Azure OpenAI models](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/fine-tuning?tabs=azure-openai&pivots=programming-language-python)
