@@ -1,4 +1,5 @@
 """
+    Source: Promptflow to manage conversations: https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/03-Use-prompt-flow-chat.html
     A prompt flow provides a way to orchestrate prompts and other activities to define an interaction with a 
     generative AI model. In this exercise, you’ll use a template to create a basic chat flow for an AI assistant 
     in a travel agency.

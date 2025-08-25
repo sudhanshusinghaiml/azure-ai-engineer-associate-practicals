@@ -1,3 +1,10 @@
+""" 
+    Create a generative AI chat app: https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/02a-AI-foundry-sdk.html
+    In this exercise, you use the Azure AI Foundry Python SDK to create a simple chat app that 
+    connects to a project and chats with a language model.
+
+"""
+
 import os
 from dotenv import load_dotenv
 

@@ -1,3 +1,8 @@
+""" 
+    Source: GenAI App using RAG: https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/04-Use-own-data.html
+    
+"""
+
 import os
 from dotenv import load_dotenv
 from openai import AzureOpenAI

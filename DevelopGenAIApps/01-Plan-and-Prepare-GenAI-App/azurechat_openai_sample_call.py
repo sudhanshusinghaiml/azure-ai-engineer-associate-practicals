@@ -1,3 +1,8 @@
+"""
+    Source: https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/01-Explore-ai-studio.html
+    Prepare for an AI development project
+"""
+
 import os
 from langchain_openai import AzureChatOpenAI
 
