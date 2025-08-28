@@ -1,3 +1,11 @@
+# [Fine-tune a language model](https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/05-Finetune-model.html)
+
+- When you want a language model to behave a certain way, you can use prompt engineering to define the desired behavior. 
+- When you want to improve the consistency of the desired behavior, you can opt to fine-tune a model, comparing it to your prompt engineering approach to evaluate which method best fits your needs.
+
+- Imagine we work for a travel agency and we are developing a chat application to help people plan their vacations. The goal is to create a simple and inspiring chat that suggests destinations and activities with a consistent, friendly conversational tone.
+
+
 1. [Fine-tune models with Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/fine-tuning-overview)
 
     -   [Training Techniques](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/fine-tuning-overview#training-techniques)
