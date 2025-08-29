@@ -1,0 +1,42 @@
+System-assigned and User-assigned Managed Identities:
+===========================================
+Individuals (humans) use user accounts in Entra ID (with usernames, MFA, etc.) to log in.
+Applications/services use managed identities (system-assigned or user-assigned) to log in to Azure securely.
+User-assigned identity just means you create the identity once and can reuse it across many services/resources.
+
+
+System-assigned managed Identity:
+=============================
+System-assigned managed identity
+Created with an Azure resource (like an App Service, VM, or Azure AI service).
+Lifecycle is tied to that resource:
+	•	When the resource is created, the identity can be enabled.
+	•	When the resource is deleted, the identity is deleted automatically.
+	•	Only one system-assigned identity can exist per resource.
+	•	Principal ID (the identity in Azure AD) changes if you disable and re-enable it.
+	•	Best when you want a simple, resource-scoped identity with no reuse.
+
+
+User-assigned managed identity
+=========================
+Created as a standalone Azure resource (in your subscription).
+Lifecycle is independent of the resources that use it:
+	•	Can be assigned to one or many resources.
+	•	Deleting the resource that uses it does not delete the identity.
+	•	Multiple user-assigned identities can be attached to a single resource.
+	•	Reusable — one identity can be used across different apps/services.
+
+
+Examples:
+========
+For Content Safety → Blob Storage, only system-assigned identities are allowed (no user-assigned).
+That means:
+	•	Enable system-assigned identity on the Content Safety resource.
+	•	Grant it Storage Blob Data Reader/Contributor/Owner role on the storage account.
+	•	The system then handles token issuance and rotation automatically.
+
+
+Summary:
+========
+	•	System-assigned = tied to a resource’s lifecycle, auto-deleted with it, only one per resource.
+	•	User-assigned = standalone, reusable across resources, lifecycle independent, many can be assigned.

@@ -1,0 +1,7 @@
+Azure AI Foundry Content Safety Solution:
+================================
+
+A false negative arises when the model fails to identify harmful content and returns a severity level of 0. There are four accuracy error types, and a false negative indicates incorrectly accepted content in the text.
+
+
+The only way to provide a Content Safety resource with access to images in Azure Blog Storage, is to enable a system-assigned managed identity and to assign the role Storage Blob Data Contributor/Owner/Reader to that managed identity. User-assigned managed identities are not permitted in that scenario.

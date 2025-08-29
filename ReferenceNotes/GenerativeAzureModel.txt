@@ -1,0 +1,77 @@
+Generative Azure Model
+=================== 
+The system message is included at the beginning of the prompt and is used to prime the model with context, instructions, or other information relevant to the use case. You can use the system message to describe the assistant’s personality, define what the model should and should not answer, and define the format of model responses.
+
+
+
+Azure OpenAI
+===========
+As your use of Azure OpenAI evolves, and you start to build and integrate with applications, you might want to manually control model updates so that you can first test and validate whether model performance remains consistent for a use case before performing an upgrade.
+
+When you select a specific model version for a deployment, this version will remain selected until you either choose to manually update it, or once you reach the retirement date of the model. When the retirement date is reached, the model will upgrade to the default version automatically at the time of retirement.
+
+To deploy GPT-4 for inferencing, provisioning Azure AI Foundry resource is essential to establish the infrastructure. Selecting GPT-4 from the catalog ensures the correct model is chosen for the intended use case. Deploying GPT-4 to an endpoint makes it accessible for inferencing, completing the deployment process. 
+
+
+
+DALL-E model 
+============
+For example, parameters for a DALL-E model include:
+	prompt: The description of the image to be generated.
+	n: The number of images to be generated. DALL-E 3 only supports n=1.
+	size: The resolution of the image(s) to be generated (1024x1024, 1792x1024, or 1024x1792 for DALL-E 3)
+	quality Optional: The quality of the image (standard or hd). Defaults to standard.
+	style Optional: The visual style of the image (natural or vivid). Defaults to vivid.
+
+The result from the initial request does not immediately return the results of the image generation process. Instead, the response includes an operation-location header with a URL for a callback service that your application code can poll until the results of the image generation are ready. The result element includes a collection of url elements, each of which references a PNG image file generated from the prompt.
+
+{
+    "created": 1686780744,
+    "data": [
+        {
+            "url": "<URL of generated image>",
+            "revised_prompt": "<prompt that was used>"
+        }
+    ]
+}
+
+
+Optimizing for Performance:
+=====================
+You are deploying a generative AI solution using an Azure OpenAI in Foundry Models service to process customer feedback and generate summaries. You need to optimise the solution for performance and ensure its responses align with the organisation's tone and style.
+
+1. 	To optimise the generative AI solution for performance and ensure its responses align with the organization's tone and style, it is essential to set up monitoring in Azure to continuously evaluate the model's performance and resource usage. 
+2. 	Fine-tuning the model with customer feedback data customizes the solution to meet specific organizational requirements, ensuring alignment with tone and style. 
+3. 	Additionally, using prompt engineering refines the model's responses by structuring input effectively, enhancing the quality and relevance of the generated content.
+
+
+Network Security Settings:
+====================
+You are provisioning an Azure OpenAI in Foundry Models service resource. You need to ensure that the resource is only available to applications that are hosted in your Azure subscription.  Which network security setting should you configure?
+
+	Because the requirements state that access to the resource should only be for applications hosted in the Azure subscription, setting the network option to Disabled and configuring a private endpoint meets this requirement.
+	
+	All networks permit access to any network, including the internet. Selected networks access to networks outside of Azure, if configured that way.
+
+
+
+	
+Prompting Techniques:
+==================
+You are building a GPT-based chat application that will answer questions about your company. You plan to test the application by using strategies defined by Microsoft best practices.
+Which three prompt engineering strategies should you consider while testing the application? Each correct answer presents a complete solution ?
+	-	Be Specific
+	- 	Be Descriptive
+	-	Order Matters
+
+Be Specific means to leave as little to interpretation as possible. Be Descriptive means to use analogies. Order Matters means that the order in which you present information to the model can affect the output. Therefore, those three are valid best practices. Be simple and be minimalistic do not produce the best results and are, therefore, not best practices
+
+
+
+Azure AI Search Index:
+==================
+Your organization is developing a customer-facing application that uses Azure OpenAI in Foundry Models to generate personalized responses. The application is connected to a Microsoft Azure AI Search index. You need to configure the application to retrieve relevant data from the search index. What should you do?
+
+Enabling semantic search enhances the precision and relevance of search results by interpreting the meaning behind query terms, making it the most suitable solution for improving response accuracy in this scenario. Increasing chunk size impacts data processing but does not directly affect the accuracy of retrieved data. 
+Deploying an additional Azure OpenAI model does not address the specific need for improving data retrieval accuracy from the search index. Using keyword search lacks semantic capabilities, which are essential for achieving the desired level of accuracy.
+
