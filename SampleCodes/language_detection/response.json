@@ -1,0 +1,20 @@
+{
+    "kind": "LanguageDetectionResults",
+    "results": {
+        "documents": [
+            {
+                "id": "1",
+                "warnings": [],
+                "detectedLanguage": {
+                    "name": "English",
+                    "iso6391Name": "en",
+                    "confidenceScore": 0.95,
+                    "script": "Latin",
+                    "scriptCode": "Latn"
+                }
+            }
+        ],
+        "errors": [],
+        "modelVersion": "2024-11-01"
+    }
+}

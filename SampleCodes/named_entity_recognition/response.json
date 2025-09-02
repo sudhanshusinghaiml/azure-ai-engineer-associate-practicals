@@ -1,0 +1,38 @@
+{
+    "kind": "EntityRecognitionResults",
+    "results": {
+        "documents": [
+            {
+                "id": "1",
+                "entities": [
+                    {
+                        "text": "trip",
+                        "category": "Event",
+                        "offset": 18,
+                        "length": 4,
+                        "confidenceScore": 0.66
+                    },
+                    {
+                        "text": "Seattle",
+                        "category": "Location",
+                        "subcategory": "City",
+                        "offset": 26,
+                        "length": 7,
+                        "confidenceScore": 1.0
+                    },
+                    {
+                        "text": "last week",
+                        "category": "DateTime",
+                        "subcategory": "DateRange",
+                        "offset": 34,
+                        "length": 9,
+                        "confidenceScore": 1.0
+                    }
+                ],
+                "warnings": []
+            }
+        ],
+        "errors": [],
+        "modelVersion": "2025-02-01"
+    }
+}
