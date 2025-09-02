@@ -1,0 +1,3 @@
+- [Text Summarization](https://learn.microsoft.com/en-us/azure/ai-services/language-service/summarization/how-to/text-summarization)
+- [Conversation Summarization](https://learn.microsoft.com/en-us/azure/ai-services/language-service/summarization/how-to/conversation-summarization)
+- [Document Summarization](https://learn.microsoft.com/en-us/azure/ai-services/language-service/summarization/how-to/document-summarization)
