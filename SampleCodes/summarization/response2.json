@@ -1,0 +1,71 @@
+{
+    "jobId": "203c3b88-8186-4315-8232-218379903046",
+    "lastUpdatedDateTime": "2025-09-02T21:38:20Z",
+    "createdDateTime": "2025-09-02T21:38:18Z",
+    "expirationDateTime": "2025-09-03T21:38:18Z",
+    "status": "succeeded",
+    "errors": [],
+    "displayName": "Text ext Summarization Task Example",
+    "tasks": {
+        "completed": 1,
+        "failed": 0,
+        "inProgress": 0,
+        "total": 1,
+        "items": [
+            {
+                "kind": "ExtractiveSummarizationLROResults",
+                "taskName": "Text Extractive Summarization Task 1",
+                "lastUpdateDateTime": "2025-09-02T21:38:20.5709252Z",
+                "status": "succeeded",
+                "results": {
+                    "documents": [
+                        {
+                            "id": "1",
+                            "sentences": [
+                                {
+                                    "text": "At Microsoft, we have been on a quest to advance AI beyond existing techniques, by taking a more holistic, human-centric approach to learning and understanding.",
+                                    "rankScore": 0.65,
+                                    "offset": 0,
+                                    "length": 160
+                                },
+                                {
+                                    "text": "At the intersection of all three, there’s magic—what we call XYZ-code as illustrated in Figure 1—a joint representation to create more powerful AI that can speak, hear, see, and understand humans better.",
+                                    "rankScore": 1.0,
+                                    "offset": 507,
+                                    "length": 203
+                                },
+                                {
+                                    "text": "We believe XYZ-code will enable us to fulfill our long-term vision: cross-domain transfer learning, spanning modalities and languages.",
+                                    "rankScore": 0.86,
+                                    "offset": 711,
+                                    "length": 134
+                                },
+                                {
+                                    "text": "The goal is to have pre-trained models that can jointly learn representations to support a broad range of downstream AI tasks, much in the way humans do today.",
+                                    "rankScore": 0.88,
+                                    "offset": 846,
+                                    "length": 159
+                                },
+                                {
+                                    "text": "Over the past five years, we have achieved human performance on benchmarks in conversational speech recognition, machine translation, conversational question answering, machine reading comprehension, and image captioning.",
+                                    "rankScore": 0.65,
+                                    "offset": 1006,
+                                    "length": 221
+                                },
+                                {
+                                    "text": "I believe the joint XYZ-code is a foundational component of this aspiration, if grounded with external knowledge sources in the downstream AI tasks.",
+                                    "rankScore": 0.31,
+                                    "offset": 1471,
+                                    "length": 148
+                                }
+                            ],
+                            "warnings": []
+                        }
+                    ],
+                    "errors": [],
+                    "modelVersion": "2024-11-04"
+                }
+            }
+        ]
+    }
+}

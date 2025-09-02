@@ -1,0 +1,10 @@
+HTTP/2 202 
+content-length: 0
+operation-location: https://mslearn-azureai-foundry.cognitiveservices.azure.com/language/analyze-text/jobs/203c3b88-8186-4315-8232-218379903046?api-version=2023-04-01
+x-envoy-upstream-service-time: 195
+apim-request-id: add64bb8-32f1-44d8-915b-612821de3cd5
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+x-ms-region: East US 2
+date: Tue, 02 Sep 2025 21:38:18 GMT
+
