@@ -1,0 +1,7 @@
+--------Recognizing receipt #1--------
+Receipt Type: receipt
+Merchant Name: WA
+WASHINGTON
+USA has confidence: 0.158
+Transaction Date: None has confidence: 0.986
+--------------------------------------

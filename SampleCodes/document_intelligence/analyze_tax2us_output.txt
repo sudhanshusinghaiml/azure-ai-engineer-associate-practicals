@@ -1,0 +1,288 @@
+--------Recognizing W-2 #1--------
+TaxYear: 2020 has confidence 0.859
+W2Copy: Copy B -- To Be Filed With Employee's FEDERAL Tax Return. has confidence 0.596
+W2FormVariant: W-2 has confidence 0.928
+ControlNumber: 12914 has confidence 0.936
+WagesTipsAndOtherCompensation: 1080.50 has confidence 0.903
+FederalIncomeTaxWithheld: 17.31 has confidence 0.88
+SocialSecurityWages: 1080.50 has confidence 0.842
+SocialSecurityTaxWithheld: 66.99 has confidence 0.874
+MedicareWagesAndTips: 1080.50 has confidence 0.913
+MedicareTaxWithheld: 15.67 has confidence 0.881
+SocialSecurityTips: None has confidence 0.874
+AllocatedTips: None has confidence 0.874
+VerificationCode: None has confidence 0.967
+DependentCareBenefits: None has confidence 0.857
+NonQualifiedPlans: None has confidence 0.874
+IsStatutoryEmployee: None has confidence 0.987
+IsThirdPartySickPay: None has confidence 0.987
+IsRetirementPlan: None has confidence 0.987
+Other: None has confidence 0.812
+W-2 Employee Info:
+...SocialSecurityNumber: 123-45-6789 has confidence 0.927
+...Address: {'houseNumber': '4567', 'road': 'Main Street', 'postalCode': '12345', 'city': 'Buffalo', 'state': 'WA', 'streetAddress': '4567 Main Street'} has confidence 0.818
+...Name: Angel Brown has confidence 0.92
+Employee: None has confidence None
+W-2 Employer Info:
+...Name: Contoso Ltd has confidence 0.861
+...IdNumber: 98-7654321 has confidence 0.908
+...Address: {'houseNumber': '123', 'road': 'Micorooft Way', 'postalCode': '12345', 'city': 'Redmond', 'state': 'WA', 'streetAddress': '123 Micorooft Way'} has confidence 0.77
+Employer: None has confidence None
+W-2 State Tax Info:
+...State Tax Info#1
+......State: None has confidence 0.965
+......EmployerStateIdNumber: None has confidence 0.938
+......StateWagesTipsEtc: None has confidence 0.898
+......StateIncomeTax: None has confidence 0.889
+...State Tax Info#2
+......State: None has confidence 0.975
+......EmployerStateIdNumber: None has confidence 0.954
+......StateWagesTipsEtc: None has confidence 0.949
+......StateIncomeTax: None has confidence 0.948
+W-2 Local Tax Info:
+...Local Tax Info#1
+......LocalWagesTipsEtc: None has confidence 0.887
+......LocalIncomeTax: None has confidence 0.897
+......LocalityName: None has confidence 0.94
+...Local Tax Info#2
+......LocalWagesTipsEtc: None has confidence 0.94
+......LocalIncomeTax: None has confidence 0.94
+......LocalityName: None has confidence 0.954
+LocalTaxInfos: None has confidence None
+W-2 Additional Info:
+...Additional Info#1
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#2
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#3
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#4
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#5
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#6
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+AdditionalInfo: None has confidence None
+----------------------------------------
+--------Recognizing W-2 #2--------
+TaxYear: 2020 has confidence 0.859
+W2Copy: Copy 2 -- To Be Filed With Employee's State, City, or Local Income Tax Return. has confidence 0.504
+W2FormVariant: W-2 has confidence 0.925
+ControlNumber: 12914 has confidence 0.937
+WagesTipsAndOtherCompensation: 1080.50 has confidence 0.904
+FederalIncomeTaxWithheld: 17.31 has confidence 0.88
+SocialSecurityWages: 1080.50 has confidence 0.842
+SocialSecurityTaxWithheld: 66.99 has confidence 0.877
+MedicareWagesAndTips: 1080.50 has confidence 0.913
+MedicareTaxWithheld: 15.67 has confidence 0.88
+SocialSecurityTips: None has confidence 0.874
+AllocatedTips: None has confidence 0.874
+VerificationCode: None has confidence 0.967
+DependentCareBenefits: None has confidence 0.857
+NonQualifiedPlans: None has confidence 0.874
+IsStatutoryEmployee: None has confidence 0.987
+IsThirdPartySickPay: None has confidence 0.987
+IsRetirementPlan: None has confidence 0.987
+Other: None has confidence 0.521
+W-2 Employee Info:
+...SocialSecurityNumber: 123-45-6789 has confidence 0.927
+...Address: {'houseNumber': '4567', 'road': 'Main Street', 'postalCode': '12345', 'city': 'Buffalo', 'state': 'WA', 'streetAddress': '4567 Main Street'} has confidence 0.815
+...Name: Angel Brown has confidence 0.924
+Employee: None has confidence None
+W-2 Employer Info:
+...Name: Contoso Ltd has confidence 0.863
+...IdNumber: 98-7654321 has confidence 0.909
+...Address: {'houseNumber': '123', 'road': 'Micorooft Way', 'postalCode': '12345', 'city': 'Redmond', 'state': 'WA', 'streetAddress': '123 Micorooft Way'} has confidence 0.77
+Employer: None has confidence None
+W-2 State Tax Info:
+...State Tax Info#1
+......State: None has confidence 0.965
+......EmployerStateIdNumber: None has confidence 0.938
+......StateWagesTipsEtc: None has confidence 0.9
+......StateIncomeTax: None has confidence 0.891
+...State Tax Info#2
+......State: None has confidence 0.975
+......EmployerStateIdNumber: None has confidence 0.954
+......StateWagesTipsEtc: None has confidence 0.95
+......StateIncomeTax: None has confidence 0.948
+W-2 Local Tax Info:
+...Local Tax Info#1
+......LocalWagesTipsEtc: None has confidence 0.89
+......LocalIncomeTax: None has confidence 0.9
+......LocalityName: None has confidence 0.94
+...Local Tax Info#2
+......LocalWagesTipsEtc: None has confidence 0.94
+......LocalIncomeTax: None has confidence 0.94
+......LocalityName: None has confidence 0.954
+LocalTaxInfos: None has confidence None
+W-2 Additional Info:
+...Additional Info#1
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#2
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#3
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#4
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#5
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#6
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+AdditionalInfo: None has confidence None
+----------------------------------------
+--------Recognizing W-2 #3--------
+TaxYear: 2020 has confidence 0.862
+W2Copy: Copy C -- For EMPLOYEE'S RECORDS has confidence 0.553
+W2FormVariant: W-2 has confidence 0.93
+ControlNumber: 12914 has confidence 0.937
+WagesTipsAndOtherCompensation: 1080.50 has confidence 0.902
+FederalIncomeTaxWithheld: 17.31 has confidence 0.876
+SocialSecurityWages: 1080.50 has confidence 0.846
+SocialSecurityTaxWithheld: 66.99 has confidence 0.877
+MedicareWagesAndTips: 1080.50 has confidence 0.913
+MedicareTaxWithheld: 15.67 has confidence 0.879
+SocialSecurityTips: None has confidence 0.874
+AllocatedTips: None has confidence 0.874
+VerificationCode: None has confidence 0.968
+DependentCareBenefits: None has confidence 0.859
+NonQualifiedPlans: None has confidence 0.883
+IsStatutoryEmployee: None has confidence 0.987
+IsThirdPartySickPay: None has confidence 0.987
+IsRetirementPlan: None has confidence 0.987
+Other: None has confidence 0.828
+W-2 Employee Info:
+...SocialSecurityNumber: 123-45-6789 has confidence 0.933
+...Address: {'houseNumber': '4567', 'road': 'Main Street', 'postalCode': '12345', 'city': 'Buffalo', 'state': 'WA', 'streetAddress': '4567 Main Street'} has confidence 0.819
+...Name: Angel Brown has confidence 0.92
+Employee: None has confidence None
+W-2 Employer Info:
+...Name: Contoso Ltd has confidence 0.866
+...IdNumber: 98-7654321 has confidence 0.911
+...Address: {'houseNumber': '123', 'road': 'Micorooft Way', 'postalCode': '12345', 'city': 'Redmond', 'state': 'WA', 'streetAddress': '123 Micorooft Way'} has confidence 0.775
+Employer: None has confidence None
+W-2 State Tax Info:
+...State Tax Info#1
+......State: None has confidence 0.966
+......EmployerStateIdNumber: None has confidence 0.939
+......StateWagesTipsEtc: None has confidence 0.91
+......StateIncomeTax: None has confidence 0.902
+...State Tax Info#2
+......State: None has confidence 0.975
+......EmployerStateIdNumber: None has confidence 0.954
+......StateWagesTipsEtc: None has confidence 0.953
+......StateIncomeTax: None has confidence 0.951
+W-2 Local Tax Info:
+...Local Tax Info#1
+......LocalWagesTipsEtc: None has confidence 0.9
+......LocalIncomeTax: None has confidence 0.91
+......LocalityName: None has confidence 0.941
+...Local Tax Info#2
+......LocalWagesTipsEtc: None has confidence 0.943
+......LocalIncomeTax: None has confidence 0.941
+......LocalityName: None has confidence 0.958
+LocalTaxInfos: None has confidence None
+W-2 Additional Info:
+...Additional Info#1
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#2
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#3
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#4
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#5
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#6
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+AdditionalInfo: None has confidence None
+----------------------------------------
+--------Recognizing W-2 #4--------
+TaxYear: 2020 has confidence 0.862
+W2Copy: Copy 2 -- To Be Filed With Employee's State, City, or Local Income Tax Return. has confidence 0.527
+W2FormVariant: W-2 has confidence 0.923
+ControlNumber: 12914 has confidence 0.936
+WagesTipsAndOtherCompensation: 1080.50 has confidence 0.903
+FederalIncomeTaxWithheld: 17.31 has confidence 0.865
+SocialSecurityWages: 1080.50 has confidence 0.843
+SocialSecurityTaxWithheld: 66.99 has confidence 0.873
+MedicareWagesAndTips: 1080.50 has confidence 0.914
+MedicareTaxWithheld: 15.67 has confidence 0.877
+SocialSecurityTips: None has confidence 0.874
+AllocatedTips: None has confidence 0.874
+VerificationCode: None has confidence 0.966
+DependentCareBenefits: None has confidence 0.857
+NonQualifiedPlans: None has confidence 0.875
+IsStatutoryEmployee: None has confidence 0.987
+IsThirdPartySickPay: None has confidence 0.987
+IsRetirementPlan: None has confidence 0.987
+Other: None has confidence 0.824
+W-2 Employee Info:
+...SocialSecurityNumber: 123-45-6789 has confidence 0.926
+...Address: {'houseNumber': '4567', 'road': 'Main Street', 'postalCode': '12345', 'city': 'Buffalo', 'state': 'WA', 'streetAddress': '4567 Main Street'} has confidence 0.823
+...Name: Angel Brown has confidence 0.921
+Employee: None has confidence None
+W-2 Employer Info:
+...Name: Contoso Ltd has confidence 0.864
+...IdNumber: 98-7654321 has confidence 0.91
+...Address: {'houseNumber': '123', 'road': 'Micorooft Way', 'postalCode': '12345', 'city': 'Redmond', 'state': 'WA', 'streetAddress': '123 Micorooft Way'} has confidence 0.772
+Employer: None has confidence None
+W-2 State Tax Info:
+...State Tax Info#1
+......State: None has confidence 0.965
+......EmployerStateIdNumber: None has confidence 0.938
+......StateWagesTipsEtc: None has confidence 0.9
+......StateIncomeTax: None has confidence 0.89
+...State Tax Info#2
+......State: None has confidence 0.975
+......EmployerStateIdNumber: None has confidence 0.954
+......StateWagesTipsEtc: None has confidence 0.95
+......StateIncomeTax: None has confidence 0.948
+W-2 Local Tax Info:
+...Local Tax Info#1
+......LocalWagesTipsEtc: None has confidence 0.89
+......LocalIncomeTax: None has confidence 0.9
+......LocalityName: None has confidence 0.94
+...Local Tax Info#2
+......LocalWagesTipsEtc: None has confidence 0.94
+......LocalIncomeTax: None has confidence 0.94
+......LocalityName: None has confidence 0.954
+LocalTaxInfos: None has confidence None
+W-2 Additional Info:
+...Additional Info#1
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#2
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#3
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#4
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#5
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+...Additional Info#6
+......LetterCode: None has confidence 0.995
+......Amount: None has confidence 0.995
+AdditionalInfo: None has confidence None
+----------------------------------------

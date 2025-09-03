@@ -1,0 +1,33 @@
+--------Recognizing invoice #1--------
+Vendor Name: CONTOSO LTD. has confidence: 0.935
+Vendor Address: {'houseNumber': '123', 'road': '456th St', 'postalCode': '10001', 'city': 'New York', 'state': 'NY', 'streetAddress': '123 456th St'} has confidence: 0.887
+Vendor Address Recipient: Contoso Headquarters has confidence: 0.938
+Customer Name: MICROSOFT CORPORATION has confidence: 0.916
+Customer Id: CID-12345 has confidence: 0.946
+Customer Address: {'houseNumber': '123', 'road': 'Other St', 'postalCode': '98052', 'city': 'Redmond', 'state': 'WA', 'streetAddress': '123 Other St'} has confidence: 0.888
+Customer Address Recipient: Microsoft Corp has confidence: 0.932
+Invoice Id: INV-100 has confidence: 0.968
+Invoice Date: 2019-11-15 has confidence: 0.968
+Invoice Total: 110.0 has confidence: 0.949
+Due Date: 2019-12-15 has confidence: 0.968
+Purchase Order: PO-3333 has confidence: 0.949
+Billing Address: {'houseNumber': '123', 'road': 'Bill St', 'postalCode': '98052', 'city': 'Redmond', 'state': 'WA', 'streetAddress': '123 Bill St'} has confidence: 0.889
+Billing Address Recipient: Microsoft Finance has confidence: 0.938
+Shipping Address: {'houseNumber': '123', 'road': 'Ship St', 'postalCode': '98052', 'city': 'Redmond', 'state': 'WA', 'streetAddress': '123 Ship St'} has confidence: 0.888
+Shipping Address Recipient: Microsoft Delivery has confidence: 0.937
+Invoice items:
+...Item #1
+......Description: Consulting service has confidence: 0.903
+......Quantity: 1.0 has confidence: 0.891
+......Amount: 100.0 has confidence: 0.906
+Subtotal: 100.0 has confidence: 0.968
+Total Tax: 10.0 has confidence: 0.967
+Previous Unpaid Balance: 500.0 has confidence: 0.937
+Amount Due: 610.0 has confidence: 0.82
+Service Start Date: 2019-10-14 has confidence: 0.957
+Service End Date: 2019-11-14 has confidence: 0.958
+Service Address: {'houseNumber': '123', 'road': 'Service St', 'postalCode': '98052', 'city': 'Redmond', 'state': 'WA', 'streetAddress': '123 Service St'} has confidence: 0.886
+Service Address Recipient: Microsoft Services has confidence: 0.918
+Remittance Address: {'houseNumber': '123', 'road': 'Remit St', 'postalCode': '10001', 'city': 'New York', 'state': 'NY', 'streetAddress': '123 Remit St'} has confidence: 0.886
+Remittance Address Recipient: Contoso Billing has confidence: 0.938
+----------------------------------------
