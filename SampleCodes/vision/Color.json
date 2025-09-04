@@ -1,0 +1,15 @@
+{
+    "color": {
+        "dominantColorForeground": "Black",
+        "dominantColorBackground": "Black",
+        "dominantColors": ["Black", "White"],
+        "accentColor": "BB6D10",
+        "isBwImg": false
+    },
+    "requestId": "0dc394bf-db50-4871-bdcc-13707d9405ea",
+    "metadata": {
+        "height": 202,
+        "width": 300,
+        "format": "Jpeg"
+    }
+}

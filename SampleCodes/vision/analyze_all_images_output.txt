@@ -1,0 +1,67 @@
+2025-09-04 11:34:46,486:INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://mslearn-azureai-foundry.cognitiveservices.azure.com//computervision/imageanalysis:analyze?api-version=REDACTED&features=REDACTED&language=REDACTED&gender-neutral-caption=REDACTED&smartcrops-aspect-ratios=REDACTED&model-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Length': '957842'
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '0ef855c8-8955-11f0-9eed-6ed03115ad9d'
+    'User-Agent': 'azsdk-python-ai-vision-imageanalysis/1.0.0 Python/3.12.4 (macOS-15.6.1-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-09-04 11:34:49,607:INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Content-Length': '2843'
+    'Content-Type': 'application/json; charset=utf-8'
+    'request-id': '1d4c838a-e0ff-4dee-8956-2ea8d7b63039'
+    'x-ms-request-id': '1d4c838a-e0ff-4dee-8956-2ea8d7b63039'
+    'ms-vision-response-time-input-received': 'REDACTED'
+    'ms-vision-response-time-input-processed': 'REDACTED'
+    'api-supported-versions': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'CSP-Billing-Usage': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Thu, 04 Sep 2025 06:04:49 GMT'
+Image analysis results:
+ Read:
+   Line: 'Sample text', Bounding box [{'x': 721, 'y': 502}, {'x': 843, 'y': 502}, {'x': 843, 'y': 519}, {'x': 721, 'y': 519}]
+     Word: 'Sample', Bounding polygon [{'x': 722, 'y': 503}, {'x': 785, 'y': 503}, {'x': 785, 'y': 520}, {'x': 722, 'y': 520}], Confidence 0.9930
+     Word: 'text', Bounding polygon [{'x': 800, 'y': 503}, {'x': 842, 'y': 502}, {'x': 842, 'y': 519}, {'x': 800, 'y': 520}], Confidence 0.9890
+   Line: 'Hand writing', Bounding box [{'x': 720, 'y': 525}, {'x': 819, 'y': 526}, {'x': 819, 'y': 544}, {'x': 720, 'y': 543}]
+     Word: 'Hand', Bounding polygon [{'x': 721, 'y': 526}, {'x': 759, 'y': 526}, {'x': 759, 'y': 544}, {'x': 721, 'y': 543}], Confidence 0.9890
+     Word: 'writing', Bounding polygon [{'x': 765, 'y': 526}, {'x': 819, 'y': 527}, {'x': 819, 'y': 545}, {'x': 765, 'y': 544}], Confidence 0.9940
+   Line: '123 456', Bounding box [{'x': 721, 'y': 548}, {'x': 791, 'y': 548}, {'x': 791, 'y': 563}, {'x': 721, 'y': 564}]
+     Word: '123', Bounding polygon [{'x': 723, 'y': 548}, {'x': 750, 'y': 548}, {'x': 750, 'y': 564}, {'x': 723, 'y': 564}], Confidence 0.9940
+     Word: '456', Bounding polygon [{'x': 761, 'y': 548}, {'x': 788, 'y': 549}, {'x': 787, 'y': 564}, {'x': 760, 'y': 564}], Confidence 0.9990
+ Tags:
+   'furniture', Confidence 0.9874
+   'clothing', Confidence 0.9793
+   'person', Confidence 0.9427
+   'houseplant', Confidence 0.9400
+   'desk', Confidence 0.9183
+   'indoor', Confidence 0.8964
+   'laptop', Confidence 0.8782
+   'computer', Confidence 0.8482
+   'sitting', Confidence 0.8135
+   'wall', Confidence 0.7512
+   'woman', Confidence 0.7411
+   'table', Confidence 0.6811
+   'plant', Confidence 0.6445
+   'using', Confidence 0.5359
+ Objects:
+   'chair', {'x': 603, 'y': 225, 'w': 152, 'h': 224}, Confidence: 0.6180
+   'person', {'x': 399, 'y': 244, 'w': 249, 'h': 325}, Confidence: 0.8810
+   'Laptop', {'x': 295, 'y': 387, 'w': 211, 'h': 102}, Confidence: 0.7670
+   'chair', {'x': 441, 'y': 436, 'w': 256, 'h': 136}, Confidence: 0.5810
+   'dining table', {'x': 123, 'y': 437, 'w': 460, 'h': 125}, Confidence: 0.6060
+ People:
+   {'x': 395, 'y': 241, 'w': 261, 'h': 333}, Confidence 0.9603
+   {'x': 831, 'y': 246, 'w': 31, 'h': 255}, Confidence 0.0017
+ Smart Cropping:
+   Aspect ratio 0.9: Smart crop {'x': 238, 'y': 0, 'w': 511, 'h': 568}
+   Aspect ratio 1.33: Smart crop {'x': 54, 'y': 0, 'w': 760, 'h': 571}
+ Image height: 576
+ Image width: 864
+ Model version: 2023-10-01

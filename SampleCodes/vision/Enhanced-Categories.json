@@ -1,0 +1,32 @@
+{
+    "categories":[
+        {
+            "name":"abstract_",
+            "score":0.00390625
+        },
+        {
+            "name":"people_",
+            "score":0.83984375,
+            "detail":{
+            "celebrities":[
+                {
+                    "name":"Satya Nadella",
+                    "faceRectangle":{
+                        "left":597,
+                        "top":162,
+                        "width":248,
+                        "height":248
+                    },
+                    "confidence":0.999028444
+                }
+            ],
+            "landmarks":[
+                {
+                    "name":"Forbidden City",
+                    "confidence":0.9978346
+                }
+            ]
+            }
+        }
+    ]
+}

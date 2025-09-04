@@ -1,0 +1,22 @@
+{
+   "description":{
+      "tags":[
+         "outdoor",
+         "city",
+         "white"
+      ],
+      "captions":[
+         {
+            "text":"a city with tall buildings",
+            "confidence":0.48468858003616333
+         }
+      ]
+   },
+   "requestId":"7e5e5cac-ef16-43ca-a0c4-02bd49d379e9",
+   "metadata":{
+      "height":300,
+      "width":239,
+      "format":"Png"
+   },
+   "modelVersion":"2021-05-01"
+}

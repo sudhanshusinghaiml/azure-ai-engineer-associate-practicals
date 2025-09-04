@@ -1,0 +1,38 @@
+{
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "requestId": "a9c8490a-2740-4e04-923b-e8f4830d0e47",
+    "metadata": {
+        "height": 200,
+        "width": 300,
+        "format": "Jpeg"
+    }
+}
+
+{
+    "imageType": {
+        "clipArtType": 2,
+        "lineDrawingType": 1
+    },
+    "requestId": "6442dc22-476a-41c4-aa3d-9ceb15172f01",
+    "metadata": {
+        "height": 268,
+        "width": 300,
+        "format": "Jpeg"
+    }
+}
+
+{
+    "imageType": {
+        "clipArtType": 3,
+        "lineDrawingType": 0
+    },
+    "requestId": "88c48d8c-80f3-449f-878f-6947f3b35a27",
+    "metadata": {
+        "height": 225,
+        "width": 300,
+        "format": "Jpeg"
+    }
+}

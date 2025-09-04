@@ -1,0 +1,22 @@
+{
+    "brands":[  
+        {  
+            "name":"Microsoft",
+            "rectangle":{  
+                "x":58,
+                "y":106,
+                "w":55,
+                "h":46
+            }
+        },
+        {  
+            "name":"Microsoft",
+            "rectangle":{  
+                "x":58,
+                "y":86,
+                "w":202,
+                "h":63
+            }
+        }
+    ]
+}
