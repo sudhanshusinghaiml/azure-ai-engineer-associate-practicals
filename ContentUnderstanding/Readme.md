@@ -51,3 +51,10 @@ This module illustrates how to extract content from unstructured multimodal data
     - For each figure in the document, extract its content with a custom analyzer using Azure AI Content Understanding, and insert it into the corresponding location in the document content.
     - Chunk and embed the document content with LangChain and Azure OpenAI, and index them with Azure Search to generate an Azure Search index.
     - Utilize an OpenAI chat model to search through content in the document with a natural language query.
+
+
+# [Video Search Webapp with Azure Content Understanding](https://github.com/Azure-Samples/azure-ai-search-with-content-understanding-python/blob/main/notebooks/search_with_video_webapp.ipynb)
+- This document will guide you through how to run and use the Video Search Webapp sample as well as providing the backend server.
+    - Set up Azure resources and acquire the necessary endpoints, API keys, API versions, and deployment names.
+    - Build and run node.js server that serves the frontend webapp.
+    - Launch and port forward the backend server through this Python Notebook.
