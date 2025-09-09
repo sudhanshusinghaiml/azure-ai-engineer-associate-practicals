@@ -58,3 +58,7 @@ This module illustrates how to extract content from unstructured multimodal data
     - Set up Azure resources and acquire the necessary endpoints, API keys, API versions, and deployment names.
     - Build and run node.js server that serves the frontend webapp.
     - Launch and port forward the backend server through this Python Notebook.
+
+
+# Reference:
+- [Azure AI Content Understanding service quotas and limits](https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/service-limits)
