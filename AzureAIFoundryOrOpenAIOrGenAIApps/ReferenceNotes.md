@@ -22,4 +22,5 @@ Which color can the API return as a dominant background color?
   You are building an app that will use Azure AI Vision to detect the presence of people in a video feed. Which Azure AI Vision feature should you use?
   - **Solution:** The only visual feature that provides this capability is Spatial Analysis, as OCR, Image Analysis, and face detection are not meant to analyze the presence of people in a video feed.
 
-- 
+- Additional Resources:**
+    - [Operationalize generative AI applications (GenAIOps)](https://learn.microsoft.com/en-us/training/paths/operationalize-gen-ai-apps/)
