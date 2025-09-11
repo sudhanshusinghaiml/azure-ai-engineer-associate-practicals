@@ -17,3 +17,9 @@ You are evaluating using the Image Analysis API to detect the dominant backgroun
 Which color can the API return as a dominant background color?
   - **Solution:** Only a certain set of colors can be returned by the API.
     The set of possible returned colors is black, blue, brown, gray, green, orange, pink, purple, red, teal, white, and yellow.
+
+- **Question 4:**
+  You are building an app that will use Azure AI Vision to detect the presence of people in a video feed. Which Azure AI Vision feature should you use?
+  - **Solution:** The only visual feature that provides this capability is Spatial Analysis, as OCR, Image Analysis, and face detection are not meant to analyze the presence of people in a video feed.
+
+- 
