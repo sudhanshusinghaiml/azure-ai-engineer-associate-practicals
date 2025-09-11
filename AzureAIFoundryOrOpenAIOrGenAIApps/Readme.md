@@ -63,3 +63,50 @@
 
 #### Cognitive Services Usages Reader
 - Viewing quota requires
+
+
+### [Agent Service - Quickstart: Create a new agent](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/quickstart?pivots=rest-api)
+- Azure AI Foundry Agent Service allows you to create AI agents tailored to your needs through custom instructions and augmented by advanced tools like code interpreter, and custom functions.
+- **Create an agent**:
+    - With Azure AI Agents Service the model parameter requires model deployment name. If your model deployment name is different than the underlying model name then you would adjust your code to "model": "{your-custom-model-deployment-name}".
+    ```JSON
+    curl --request POST \
+        --url $AZURE_AI_FOUNDRY_PROJECT_ENDPOINT/assistants?api-version=2025-05-01 \
+        -H "Authorization: Bearer $AGENT_TOKEN" \
+        -H "Content-Type: application/json" \
+        -d '{
+            "instructions": "You are a helpful agent.",
+            "name": "my-agent",
+            "tools": [{"type": "code_interpreter"}],
+            "model": "gpt-4o-mini"
+        }'
+    ```
+
+- **Create a thread**:
+    ```JSON
+    curl --request POST \
+        --url $AZURE_AI_FOUNDRY_PROJECT_ENDPOINT/threads?api-version=2025-05-01 \
+        -H "Authorization: Bearer $AGENT_TOKEN" \
+        -H "Content-Type: application/json" \
+        -d ''
+    ```
+
+- **Add a user question to the thread**:
+    ```JSON
+    curl --request POST \
+        --url $AZURE_AI_FOUNDRY_PROJECT_ENDPOINT/threads?api-version=2025-05-01 \
+        -H "Authorization: Bearer $AGENT_TOKEN" \
+        -H "Content-Type: application/json" \
+        -d ''
+    ```
+
+- **Run the thread**:
+    ```JSON
+    curl --request POST \
+        --url $AZURE_AI_FOUNDRY_PROJECT_ENDPOINT/threads/thread_abc123/runs?api-version=2025-05-01 \
+        -H "Authorization: Bearer $AGENT_TOKEN" \
+        -H "Content-Type: application/json" \
+        -d '{
+            "assistant_id": "asst_abc123",
+        }'
+    ```
